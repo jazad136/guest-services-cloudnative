@@ -1,9 +1,12 @@
-package net.saddlercoms.lil.guestservices;
+package net.saddlercoms.lil.guestservices.service;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import net.saddlercoms.lil.guestservices.data.GuestRepository;
+import net.saddlercoms.lil.guestservices.models.Guest;
 
 @RestController
 @RequestMapping("/guests")

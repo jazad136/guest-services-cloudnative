@@ -1,4 +1,4 @@
-package net.saddlercoms.lil.guestservices;
+package net.saddlercoms.lil.guestservices.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
